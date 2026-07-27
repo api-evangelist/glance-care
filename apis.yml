@@ -1,7 +1,15 @@
 aid: glance-care
-name: Glance care
-description: Glance care is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Buglance
+description: >-
+  Buglance is a crowdsourced software testing platform that connects companies with a global
+  community of more than 50,000 professional bug hunters to find defects and quality issues
+  in mobile apps, games, e-commerce sites, and web platforms before release. Testers can be
+  targeted by country, age, gender, and device type across a fleet of 10,000+ real devices,
+  and detailed, validated, severity-classified bug reports are typically delivered in under
+  24 hours through live analytics dashboards. Buglance is a 500 Global portfolio company and
+  markets to mobile gaming, e-commerce and retail, and lifestyle and productivity teams. It
+  is added to the API Evangelist network as a company profile; no public developer API,
+  OpenAPI definition, or developer portal was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/glance-care/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://buglance.com/img/thumbnail.png
 tags:
 - Company
+- Software Testing
+- Quality Assurance
+- Crowdsourced Testing
+- Bug Reporting
+- Mobile Testing
+- Test Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://buglance.com
+- type: Blog
+  url: https://buglance.com/blog
+- type: Support
+  url: mailto:mail@buglance.com
+- type: TermsOfService
+  url: https://buglance.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://buglance.com/privacy-policy
+- type: DomainSecurity
+  url: security/glance-care-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
